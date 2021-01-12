@@ -52,10 +52,39 @@ function runEnter() {
 
 
   //see if output results are captured
-  console.log(inputValue);
-  console.log(filteredData);
+  //console.log(inputValue);
+  //console.log(filteredData);
+
+  // Display Filtered information after inputing the date
+
+
+  
+
+    var list = tbody;
+    list.html("");
+
+
+    filteredData.forEach((ufo) => {
+    //Append Rows to table
+    var row = tbody.append("tr");
+
+    //Insert the tableData Array into the table
+    Object.entries(ufo).forEach(([key, value]) => {
+
+        //Add cells to each row
+        var cell = row.append("td");
+        
+        //Add value to each cell
+        cell.text(value);
+
+    });
+
+});
+
+
 
 };
+
 
 
 
