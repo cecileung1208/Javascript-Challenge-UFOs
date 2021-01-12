@@ -27,5 +27,28 @@ tableData.forEach((ufo) => {
 
 //FILTER
 
-var button = d3.select("#filter-btn")
-var form = d3.select("form")
+var button = d3.select("#filter-btn");
+
+// Create event handlers 
+button.on("click", function(){
+
+  // Select the input element and get the HTML node
+  var inputElement = d3.select("#datetime");
+
+  // Get the value property of the input element
+  var inputValue = inputElement.property("value");
+
+  // filter data from the date's input
+  var filteredData = tableData.filter(date => date.datetime === inputValue);
+
+
+  //see if output results are captured
+  console.log(inputValue)
+  console.log(filteredData)
+
+});
+
+
+
+
+ 
