@@ -1,6 +1,8 @@
 // from data.js
 var tableData = data;
 
+//TABLE
+
 // select tbody - this is where to input the UFO data into the table
 var tbody = d3.select("tbody");
 
@@ -22,3 +24,8 @@ tableData.forEach((ufo) => {
     });
 
 });
+
+//FILTER
+
+var button = d3.select("#filter-btn")
+var form = d3.select("form")
