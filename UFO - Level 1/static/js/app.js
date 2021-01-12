@@ -57,13 +57,13 @@ function runEnter() {
 
   // Display Filtered information after inputing the date
 
-
-  
-
+    // select tbody - this is where to input the UFO filtered table
     var list = tbody;
+
+    // empty existing table before we input the new information
     list.html("");
 
-
+    // 
     filteredData.forEach((ufo) => {
     //Append Rows to table
     var row = tbody.append("tr");
@@ -79,10 +79,7 @@ function runEnter() {
 
     });
 
-});
-
-
-
+  });
 };
 
 
