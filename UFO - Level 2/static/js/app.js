@@ -1,10 +1,12 @@
 // from data.js
 var tableData = data;
 
+var tbody = d3.select("tbody");
+
 //TABLE
 
 // select tbody - this is where to input the UFO data into the table
-var tbody = d3.select("tbody");
+
 
 function ufoTable(data) {
 // //Loop Through `data` and console.log each weather report object
@@ -57,7 +59,7 @@ function filterTable() {
 };
 
 d3.selectAll(".filter").on(change, filterUpdate);
-
+ 
 ufoTable(tableData);
 
 
