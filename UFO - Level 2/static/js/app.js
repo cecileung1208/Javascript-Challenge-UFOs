@@ -43,15 +43,14 @@ button.on("click", function() {
   // Get the value property of the input element
   var inputValue = inputElement.property("value");
   var filteredData = tableData.filter(entry => entry.datetime === inputValue ||
-                                      entry.city === inputValue ||
-                                      entry.state  === inputValue ||
-                                      entry.country  === inputValue ||
-                                      entry.shape === inputValue);
+                                               entry.city === inputValue ||
+                                               entry.state === inputValue ||
+                                               entry.country === inputValue ||
+                                               entry.shape === inputValue);
 
   
 
-  var list = tbody;
-  filteredData.forEach((selections) => {
+  filteredData.forEach((ufo) => {
   var row = tbody.append("tr");
   Object.entries(ufo).forEach(([key, value]) => {
     var cell = row.append("td");
