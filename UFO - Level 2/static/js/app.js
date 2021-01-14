@@ -1,8 +1,6 @@
 // from data.js
 var tableData = data;
 
-
-
 //TABLE
 
 // select tbody - this is where to input the UFO data into the table
