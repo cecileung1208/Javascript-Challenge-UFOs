@@ -29,10 +29,10 @@ tableData.forEach((ufo) => {
 
 // MULTIPLE FILTERS 
 
-//Select Button and Set Event
+// Select Button 
 var button = d3.select("#filter-btn");
 
-// Determine if there are any inputs in each of the 5 forms
+// Determine if there are any inputs in each of the 5 forms through this function.
 
 function entryValue (entry, field, compare) {
   if(compare !== "") {
@@ -42,7 +42,7 @@ function entryValue (entry, field, compare) {
           }
       });
   }
-  return data;
+  return entry;
 }
 
 
@@ -51,23 +51,31 @@ function entryValue (entry, field, compare) {
 
 button.on("click", function() {
 
-  // empty existing table before we input the new information
-  tbody.html("");
-
-  // Select the input element and get the HTML node
+  // Select the input element and get the HTML node for the date
   var element_datetime = d3.select("#datetime");
-  // Get the value property of the input element
+  // Get the value property of the input element for the date
   var input_datetime = element_datetime.property("value");
 
+
+  // Select the input element and get the HTML node for the date
+  var element_city = d3.select("#city");
+  // Get the value property of the input element for the date
+  var input_city = element_city.property("value");
+  
   // Set variable for the information to be filtered
   var filteredData = tableData;
 
-  var filteredData = entryValue(filteredData, 'datetime', input_datetime);
+  results = entryValue(filteredData, 'datetime', input_datetime);
+  results = entryValue(filteredData, 'city', input_city);
   
-  console.log(filteredData)
+  console.log(results)
+
+
+  var tbody = d3.select("tbody");
+  tbody.html("");
 
   //Loop through Filtered Data
-  filteredData.forEach((ufo) => {
+  results.forEach((ufo) => {
     //Append Rows to table
     var row = tbody.append("tr");
 
