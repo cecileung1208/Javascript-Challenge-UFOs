@@ -59,6 +59,12 @@ Details of Folders and Directors for Javascript-Challenge-UFOs are listed in the
 | | | [data.js](https://github.com/cecileung1208/Javascript-Challenge-UFOs/blob/main/UFO%20-%20Level%201/static/js/data.js)   |
 
 
+### UFO - Level 2 - HTML file and Static Folder
+
+| Folder Name    | File Name |
+| ------------- | ------------- |
+| [UFO - Level 2](https://github.com/cecileung1208/Javascript-Challenge-UFOs/tree/main/UFO%20-%20Level%202) | [index.html](https://github.com/cecileung1208/Javascript-Challenge-UFOs/blob/main/UFO%20-%20Level%202/index.html)  |
+|               | [static folder](https://github.com/cecileung1208/Javascript-Challenge-UFOs/tree/main/UFO%20-%20Level%202/static)  |
 
 
  
