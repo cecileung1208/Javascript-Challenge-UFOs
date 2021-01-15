@@ -29,5 +29,34 @@ To do this, a code is needed to create a table dynamically based upon a [dataset
  4. country <br>
  5. shape <br>
  
+ ## Folders and Directories - Javascript-Challenge-UFOs **
+
+Details of Folders and Directors for Javascript-Challenge-UFOs are listed in the tables below.
+
+
+## Javascript-Challenge-UFOs
+| Folder Name    | File Name |
+| ------------- | ------------- |
+| [Javascript-Challenge-UFOs](https://github.com/cecileung1208/Javascript-Challenge-UFOs)  | [README.md](https://github.com/cecileung1208/Javascript-Challenge-UFOs/blob/main/README.md)|
+|                            | [UFO - Level 1](https://github.com/cecileung1208/Javascript-Challenge-UFOs/tree/main/UFO%20-%20Level%201)|
+|                            | [UFO - Level 2](https://github.com/cecileung1208/Javascript-Challenge-UFOs/tree/main/UFO%20-%20Level%202)|
+
+
+## UFO - Level 1
+
+| Folder Name    | File Name |
+| ------------- | ------------- |
+| UFO - Level 1 | [index.html](https://github.com/cecileung1208/Javascript-Challenge-UFOs/blob/main/UFO%20-%20Level%201/index.html)  |
+|               | [static](https://github.com/cecileung1208/Javascript-Challenge-UFOs/tree/main/UFO%20-%20Level%201/static)  |
+
+## UFO - Level 1 - Static Folder
+| Folder Name    | Subfolder Name | File Name |
+| ------------- | -------------   | -------------   |
+| static        | -------------   | -------------   |
+| static        | [index.html](https://github.com/cecileung1208/Javascript-Challenge-UFOs/blob/main/UFO%20-%20Level%201/index.html)  |
+|               | [static](https://github.com/cecileung1208/Javascript-Challenge-UFOs/tree/main/UFO%20-%20Level%201/static)  |
+
+
+ 
  
 
