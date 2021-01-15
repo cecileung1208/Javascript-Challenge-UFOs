@@ -34,9 +34,9 @@ var button = d3.select("#filter-btn");
 
 // Determine if there are any inputs in each of the 5 forms
 
-function entryValue (data, field, compare) {
+function entryValue (entry, field, compare) {
   if(compare !== "") {
-      return data.filter(function(input) {
+      return entry.filter(function(input) {
           if (input[field] === compare) {
               return true;
           }
@@ -45,7 +45,7 @@ function entryValue (data, field, compare) {
   return data;
 }
 
-console.log(entryValue)
+
 
 // Create function to retrieve the inputs to query the table
 
@@ -55,10 +55,16 @@ button.on("click", function() {
   tbody.html("");
 
   // Select the input element and get the HTML node
-  var inputElement = d3.select("#datetime");
+  var element_datetime = d3.select("#datetime");
   // Get the value property of the input element
-  var inputValue = inputElement.property("value");
+  var input_datetime = element_datetime.property("value");
 
+  // Set variable for the information to be filtered
+  var filteredData = tableData;
+
+  var filteredData = entryValue(filteredData, 'datetime', input_datetime);
+  
+  console.log(filteredData)
 
   //Loop through Filtered Data
   filteredData.forEach((ufo) => {
