@@ -17,4 +17,17 @@ To do this, a code is needed to create a table dynamically based upon a [dataset
   * Append a table to the web page and then adds new rows of data for each UFO sighting.
   * Create a date form and write JavaScript code that will listen for events and search through the date/time column to find rows that match user input.
   * **Note:** The column for date/time, city, state, country, shape, and comment are matched as per the given dataset.
+  
+ ## Level 2: Multiple Search Categories
+ 
+* Upon completion of Level 1, we can use multiple input tags to make better use of the data!
+* A new [HTML page](https://github.com/cecileung1208/Javascript-Challenge-UFOs/blob/main/UFO%20-%20Level%202/index.html) and [JavaScript code](https://github.com/cecileung1208/Javascript-Challenge-UFOs/blob/main/UFO%20-%20Level%202/static/js/app.js) have been created for the user to set multiple filters and search for UFO sightings using the following criteria based on the following table columns:
+
+ 1. date/time <br>
+ 2. city <br>
+ 3. state <br>
+ 4. country <br>
+ 5. shape <br>
+ 
+ 
 
