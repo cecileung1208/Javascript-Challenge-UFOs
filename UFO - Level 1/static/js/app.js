@@ -25,7 +25,7 @@ tableData.forEach((ufo) => {
 
 });
 
-//FILTER
+//FILTER FOR DATE
 
 var button = d3.select("#filter-btn");
 var form = d3.select("#form");
