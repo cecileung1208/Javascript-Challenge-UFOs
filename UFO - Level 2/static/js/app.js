@@ -71,7 +71,7 @@ button.on("click", function() {
 
   results = entryValue(results, 'datetime', input_datetime);
   results = entryValue(results, 'city', input_city);
-  results = entryValue(results, 'city', input_state);
+  results = entryValue(results, 'state', input_state);
 
   console.log(results)
 
