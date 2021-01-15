@@ -3,11 +3,11 @@ var tableData = data;
 
 //TABLE
 
-// select tbody - this is where to input the UFO data into the table
+// Select tbody - Input the tableData here
 var tbody = d3.select("tbody");
 
 
-//Loop Through data and add the to the table in index.html
+//Loop through data and insert each row/field index.html
 
 tableData.forEach((ufo) => {
 
@@ -32,7 +32,7 @@ tableData.forEach((ufo) => {
 // Select Button 
 var button = d3.select("#filter-btn");
 
-// Determine if there are any inputs in each of the 5 forms through this function.
+// Determine if there are any inputs in each of the 5 input fields through this function.
 
 function entryValue (entry, field, compare) {
   if(compare !== "") {
@@ -51,49 +51,58 @@ function entryValue (entry, field, compare) {
 
 button.on("click", function() {
 
-  // Select the input element and get the HTML node for the date
+  // We need to select input element and set the input value from the 5 columns (datetime, city, state, country, and shape).
+   
+  // Date - select with id "datetime"
   var element_datetime = d3.select("#datetime");
-  // Get the value property of the input element for the date
   var input_datetime = element_datetime.property("value");
 
-  // Repeat the above step of setting the input element and value for city id 
+  // City - select with id "city"
   var element_city = d3.select("#city");
   var input_city = element_city.property("value");
 
-  // Repeat the above step of setting the input element and value for state id 
+  // State - select with id "state"
   var element_state = d3.select("#state");
   var input_state = element_state.property("value");
   
-  // Repeat the above step of setting the input element and value for country id 
+  // Country - select with id "country"
   var element_country = d3.select("#country");
   var input_country = element_country.property("value");
 
-  // Repeat the above step of setting the input element and value for shape id 
+  // Shape - select with id "shape"
   var element_shape = d3.select("#shape");
   var input_shape = element_shape.property("value");
   
 
-  // Set variable for the information to be filtered
-  var results = tableData;
-
-  results = entryValue(results, 'datetime', input_datetime);
-  results = entryValue(results, 'city', input_city);
-  results = entryValue(results, 'state', input_state);
-  results = entryValue(results, 'country', input_country);
-  results = entryValue(results, 'shape', input_shape);
-
-  console.log(results)
+  // Set variable to look for information in the tableData
+  var entry_results = tableData;
 
 
+  // When the user enter the entry values in any or all of the 5 fields, the entryValue function looks for those inputs.
+  // The below results will query for the entry values for the 5 fields from the tableData.
+
+  entry_results = entryValue(entry_results, 'datetime', input_datetime);
+  entry_results = entryValue(entry_results, 'city', input_city);
+  entry_results = entryValue(entry_results, 'state', input_state);
+  entry_results = entryValue(entry_results, 'country', input_country);
+  entry_results = entryValue(entry_results, 'shape', input_shape);
+
+ 
+ // Determine if info is displayed correctly
+ // console.log(results)
+
+  // After searching for the information, we need to select the tbody again to insert results.  
   var tbody = d3.select("tbody");
+
+ //Clear page before displaying entry results on the page
   tbody.html("");
 
-  //Loop through Filtered Data
-  results.forEach((ufo) => {
+  //Loop through entry_results data
+  entry_results.forEach((ufo) => {
     //Append Rows to table
     var row = tbody.append("tr");
 
-    //Insert the tableData Array into the table
+    //Insert the entry_results Array into the table
     Object.entries(ufo).forEach(([key, value]) => {
 
     //Add cells to each row
