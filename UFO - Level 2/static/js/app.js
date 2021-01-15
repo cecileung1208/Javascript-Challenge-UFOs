@@ -56,18 +56,23 @@ button.on("click", function() {
   // Get the value property of the input element for the date
   var input_datetime = element_datetime.property("value");
 
-
-  // Select the input element and get the HTML node for the date
+  // Repeat the above step of setting the input element and value for city id 
   var element_city = d3.select("#city");
-  // Get the value property of the input element for the date
   var input_city = element_city.property("value");
-  
-  // Set variable for the information to be filtered
-  var filteredData = tableData;
 
-  results = entryValue(filteredData, 'datetime', input_datetime);
-  results = entryValue(filteredData, 'city', input_city);
+  // Repeat the above step of setting the input element and value for state id 
+  var element_state = d3.select("#state");
+  var input_state = element_state.property("value");
   
+
+
+  // Set variable for the information to be filtered
+  var results = tableData;
+
+  results = entryValue(results, 'datetime', input_datetime);
+  results = entryValue(results, 'city', input_city);
+  results = entryValue(results, 'city', input_state);
+
   console.log(results)
 
 
