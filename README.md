@@ -67,6 +67,13 @@ Details of Folders and Directors for Javascript-Challenge-UFOs are listed in the
 |               | [static folder](https://github.com/cecileung1208/Javascript-Challenge-UFOs/tree/main/UFO%20-%20Level%202/static)  |
 
 
- 
+ ### UFO - Level 2 - Static Folder
+| Folder Name    | Subfolder Name | File Name |
+| ------------- | -------------   | -------------   |
+| [static](https://github.com/cecileung1208/Javascript-Challenge-UFOs/tree/main/UFO%20-%20Level%202/static)| [css](https://github.com/cecileung1208/Javascript-Challenge-UFOs/tree/main/UFO%20-%20Level%202/static/css)   | [style.css](https://github.com/cecileung1208/Javascript-Challenge-UFOs/blob/main/UFO%20-%20Level%202/static/css/style.css)   |
+| | [images](https://github.com/cecileung1208/Javascript-Challenge-UFOs/tree/main/UFO%20-%20Level%202/static)   | [nasa.jpg](https://github.com/cecileung1208/Javascript-Challenge-UFOs/blob/main/UFO%20-%20Level%202/static/images/nasa.jpg)   |
+| | | [ufo.svg](https://github.com/cecileung1208/Javascript-Challenge-UFOs/blob/main/UFO%20-%20Level%202/static/images/ufo.svg)   |
+| | [js](https://github.com/cecileung1208/Javascript-Challenge-UFOs/tree/main/UFO%20-%20Level%202/static/js)   | [app.js](https://github.com/cecileung1208/Javascript-Challenge-UFOs/blob/main/UFO%20-%20Level%202/static/js/app.js)   |
+| | | [data.js](https://github.com/cecileung1208/Javascript-Challenge-UFOs/blob/main/UFO%20-%20Level%202/static/js/data.js)   |
  
 
