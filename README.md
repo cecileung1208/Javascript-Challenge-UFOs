@@ -34,7 +34,7 @@ To do this, a code is needed to create a table dynamically based upon a [dataset
 Details of Folders and Directors for Javascript-Challenge-UFOs are listed in the tables below.
 
 
-### Javascript-Challenge-UFOs
+#### Javascript-Challenge-UFOs
 | Folder Name    | File Name |
 | ------------- | ------------- |
 | [Javascript-Challenge-UFOs](https://github.com/cecileung1208/Javascript-Challenge-UFOs)  | [README.md](https://github.com/cecileung1208/Javascript-Challenge-UFOs/blob/main/README.md)|
@@ -42,14 +42,14 @@ Details of Folders and Directors for Javascript-Challenge-UFOs are listed in the
 |                            | [UFO - Level 2 folder](https://github.com/cecileung1208/Javascript-Challenge-UFOs/tree/main/UFO%20-%20Level%202)|
 
 
-### UFO - Level 1 - HTML file and Static Folder
+#### UFO - Level 1 - HTML file and Static Folder
 
 | Folder Name    | File Name |
 | ------------- | ------------- |
 | [UFO - Level 1](https://github.com/cecileung1208/Javascript-Challenge-UFOs/tree/main/UFO%20-%20Level%201) | [index.html](https://github.com/cecileung1208/Javascript-Challenge-UFOs/blob/main/UFO%20-%20Level%201/index.html)  |
 |               | [static folder](https://github.com/cecileung1208/Javascript-Challenge-UFOs/tree/main/UFO%20-%20Level%201/static)  |
 
-### UFO - Level 1 - Static Folder
+#### UFO - Level 1 - Static Folder
 | Folder Name    | Subfolder Name | File Name |
 | ------------- | -------------   | -------------   |
 | [static](https://github.com/cecileung1208/Javascript-Challenge-UFOs/tree/main/UFO%20-%20Level%201/static)| [css](https://github.com/cecileung1208/Javascript-Challenge-UFOs/tree/main/UFO%20-%20Level%201/static/css)   | [style.css](https://github.com/cecileung1208/Javascript-Challenge-UFOs/blob/main/UFO%20-%20Level%201/static/css/style.css)   |
@@ -59,7 +59,7 @@ Details of Folders and Directors for Javascript-Challenge-UFOs are listed in the
 | | | [data.js](https://github.com/cecileung1208/Javascript-Challenge-UFOs/blob/main/UFO%20-%20Level%201/static/js/data.js)   |
 
 
-### UFO - Level 2 - HTML file and Static Folder
+#### UFO - Level 2 - HTML file and Static Folder
 
 | Folder Name    | File Name |
 | ------------- | ------------- |
@@ -67,7 +67,7 @@ Details of Folders and Directors for Javascript-Challenge-UFOs are listed in the
 |               | [static folder](https://github.com/cecileung1208/Javascript-Challenge-UFOs/tree/main/UFO%20-%20Level%202/static)  |
 
 
- ### UFO - Level 2 - Static Folder
+ #### UFO - Level 2 - Static Folder
 | Folder Name    | Subfolder Name | File Name |
 | ------------- | -------------   | -------------   |
 | [static](https://github.com/cecileung1208/Javascript-Challenge-UFOs/tree/main/UFO%20-%20Level%202/static)| [css](https://github.com/cecileung1208/Javascript-Challenge-UFOs/tree/main/UFO%20-%20Level%202/static/css)   | [style.css](https://github.com/cecileung1208/Javascript-Challenge-UFOs/blob/main/UFO%20-%20Level%202/static/css/style.css)   |
