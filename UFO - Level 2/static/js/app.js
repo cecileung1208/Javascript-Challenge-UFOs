@@ -64,7 +64,10 @@ button.on("click", function() {
   var element_state = d3.select("#state");
   var input_state = element_state.property("value");
   
-
+  // Repeat the above step of setting the input element and value for country id 
+  var element_country = d3.select("#country");
+  var input_country = element_country.property("value");
+  
 
   // Set variable for the information to be filtered
   var results = tableData;
@@ -72,6 +75,7 @@ button.on("click", function() {
   results = entryValue(results, 'datetime', input_datetime);
   results = entryValue(results, 'city', input_city);
   results = entryValue(results, 'state', input_state);
+  results = entryValue(results, 'country', input_country);
 
   console.log(results)
 
