@@ -7,7 +7,7 @@ var tableData = data;
 var tbody = d3.select("tbody");
 
 
-//Loop Through `data` and console.log each weather report object
+//Loop Through data and add the to the table in index.html
 
 tableData.forEach((ufo) => {
 
@@ -31,27 +31,34 @@ tableData.forEach((ufo) => {
 
 //Select Button and Set Event
 var button = d3.select("#filter-btn");
+
+// Determine if there are any inputs in each of the 5 forms
+
+function entryValue (data, field, compare) {
+  if(compare !== "") {
+      return data.filter(function(input) {
+          if (input[field] === compare) {
+              return true;
+          }
+      });
+  }
+  return data;
+}
+
+console.log(entryValue)
+
+// Create function to retrieve the inputs to query the table
+
 button.on("click", function() {
 
   // empty existing table before we input the new information
   tbody.html("");
 
   // Select the input element and get the HTML node
-  var inputElement = d3.select("#input");
-
+  var inputElement = d3.select("#datetime");
   // Get the value property of the input element
   var inputValue = inputElement.property("value");
 
-  // filter data from using date, city, state, country and shape inputs from dropdown
-  var filteredData = tableData.filter(entry => entry.datetime === inputValue ||
-                                               entry.city === inputValue ||
-                                               entry.state === inputValue ||
-                                               entry.country === inputValue ||
-                                               entry.shape === inputValue);
-
-  //see if output results are captured
-  //console.log(inputValue);
-  //console.log(filteredData);
 
   //Loop through Filtered Data
   filteredData.forEach((ufo) => {
