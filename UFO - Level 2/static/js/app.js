@@ -67,6 +67,10 @@ button.on("click", function() {
   // Repeat the above step of setting the input element and value for country id 
   var element_country = d3.select("#country");
   var input_country = element_country.property("value");
+
+  // Repeat the above step of setting the input element and value for shape id 
+  var element_shape = d3.select("#shape");
+  var input_shape = element_shape.property("value");
   
 
   // Set variable for the information to be filtered
@@ -76,6 +80,7 @@ button.on("click", function() {
   results = entryValue(results, 'city', input_city);
   results = entryValue(results, 'state', input_state);
   results = entryValue(results, 'country', input_country);
+  results = entryValue(results, 'shape', input_shape);
 
   console.log(results)
 
