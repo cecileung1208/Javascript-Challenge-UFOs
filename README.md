@@ -17,34 +17,32 @@ The purpose of this project is to create an interactive HTML table to search for
 
 ## Method
 
-**1) UFO Sightings by Date and Time**
+**1. UFO Sightings by Date and Time**
 * Create a HTML page to store the UFO Sightings Dataset
-* Create a Javascript file in teh form of an array of Javascript objects to:
- * Append a table to the web page and then adds new rows of data for each UFO sighting.
- * Create a date form and write JavaScript code that will listen for events and search through the date/time column to find rows that match user input.
+* Create a Javascript code in the form of an array of Javascript objects to:
+  * Append a table to the web page and then adds new rows of data for each UFO sighting.
+  * Create a date form and write JavaScript code that will listen for events and search through the date/time column to find rows that match user input.
 
-
+**2. UFO Sightings by Multiple Search Categories**
+* Create a new HTML page and Javascript code o set multiple filters and searchc for UFO sightings using:
+  *  date/time
+  *  city
+  *  state
+  *  country
+  *  shape
+* Create a function to retrieve the all inputs to query the table adn search through the information to find rows that match user input.
 
 ## Scripts
 
-**1) UFO Sightings by Date and Time**
+**1. UFO Sightings by Date and Time**
 * [Home Page](https://github.com/cecileung1208/UFO-Data-Analysis/blob/main/UFO%20-%20Level%201/index.html)
 * [Javascript File](https://github.com/cecileung1208/UFO-Data-Analysis/blob/main/UFO%20-%20Level%201/static/js/app.js)
 * [CSS Stylesheet](https://github.com/cecileung1208/UFO-Data-Analysis/blob/main/UFO%20-%20Level%201/static/css/style.css)
 
+**2. UFO Sightings by Multiple Search Categories**
+* [Home Page](https://github.com/cecileung1208/UFO-Data-Analysis/blob/main/UFO%20-%20Level%202/index.html)
+* [Javascript File](https://github.com/cecileung1208/UFO-Data-Analysis/blob/main/UFO%20-%20Level%202/static/js/app.js)
+* [CSS Stylesheet](https://github.com/cecileung1208/UFO-Data-Analysis/tree/main/UFO%20-%20Level%202/static/css)
+
 
 ## Results
-
-
-
- ## Level 2: Multiple Search Categories
- 
-* Upon completion of Level 1, we can use multiple input tags to make better use of the data!
-* A new [HTML page](https://github.com/cecileung1208/Javascript-Challenge-UFOs/blob/main/UFO%20-%20Level%202/index.html) and [JavaScript code](https://github.com/cecileung1208/Javascript-Challenge-UFOs/blob/main/UFO%20-%20Level%202/static/js/app.js) have been created for the user to set multiple filters and search for UFO sightings using the following criteria based on the following table columns:
-
- 1. date/time <br>
- 2. city <br>
- 3. state <br>
- 4. country <br>
- 5. shape <br>
- 
