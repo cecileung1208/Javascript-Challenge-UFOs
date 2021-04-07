@@ -47,4 +47,4 @@ The purpose of this project is to create an interactive HTML table to search for
 
 ## Results
 
-[UFO Sightings by Date](https://cecileung1208.github.io/UFO-Data-Analysis/) - https://cecileung1208.github.io/UFO-Data-Analysis/
+UFO Sightings by Date - https://cecileung1208.github.io/UFO-Data-Analysis/
