@@ -21,8 +21,15 @@ The purpose of this project is to create an interactive HTML table to search for
 * Create a function to generate and display a table from the full JSON array. 
 * Add filter input fields to the HTML web page for date, city, state, country, and shape.
 * Create a function to filter the JSON array based on user input, and generate and display the updated table.
+* Create an HTML file that displays all the information by connecting them to the Javascript files.
 
 ## Scripts
+
+1) UFO Sightings by Date
+* [Home Page](https://github.com/cecileung1208/UFO-Data-Analysis/blob/main/UFO%20-%20Level%201/index.html)
+* [Javascript File](https://github.com/cecileung1208/UFO-Data-Analysis/blob/main/UFO%20-%20Level%201/static/js/app.js)
+* [CSS Stylesheet](https://github.com/cecileung1208/UFO-Data-Analysis/blob/main/UFO%20-%20Level%201/static/css/style.css)
+
 
 ## Results
 
