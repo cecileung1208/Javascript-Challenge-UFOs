@@ -4,9 +4,16 @@
 
 ## Background
 
+The purpose of this project is to create an interactive HTML table to search for specific information on UFO sightings data.  The data provided is in JSON format and we can use D3 to filter, generate and format the table.
+
 ## Requirements
 
+1) Create an HTML interactive table to search for UFO sightings by date.
+2) Create another HTML interactive to searc for UFO sigthings by multiple search categories including date/time, city, state, country, and shape.
+
 ## Datasets
+
+[UFO Sightings Dataset](https://github.com/cecileung1208/UFO-Data-Analysis/blob/main/UFO%20-%20Level%201/static/js/data.js)
 
 ## Method
 
