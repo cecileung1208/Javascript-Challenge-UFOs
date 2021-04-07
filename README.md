@@ -9,7 +9,7 @@ The purpose of this project is to create an interactive HTML table to search for
 ## Requirements
 
 1) Create an HTML interactive table to search for UFO sightings by date.
-2) Create another HTML interactive to searc for UFO sigthings by multiple search categories including date/time, city, state, country, and shape.
+2) Create another HTML interactive to search for UFO sigthings by multiple search categories including date/time, city, state, country, and shape.
 
 ## Datasets
 
@@ -47,4 +47,4 @@ The purpose of this project is to create an interactive HTML table to search for
 
 ## Results
 
-UFO Sightings by Date - https://cecileung1208.github.io/UFO-Data-Analysis/
+UFO Sightings Website - https://cecileung1208.github.io/UFO-Data-Analysis/
